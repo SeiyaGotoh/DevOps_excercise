@@ -46,6 +46,6 @@ function makeCalendar(){
   document.getElementById(`week${week_today}_${today_of_week}`).style.color = "white" ;
   document.getElementById(`week${week_today}_${today_of_week}`).style.backgroundColor = "royalblue" ; }
 //イベント処理でクリックしたらmakeCalendarを実行
-document.getElementById("make").addEventListener("click", makeCalendar)
+document.getElementById("make").addEventListener("click", makeCalendar);
 
 
